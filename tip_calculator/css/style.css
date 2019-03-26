@@ -1,0 +1,218 @@
+/*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 18px;
+    font-family: Georgia;
+    background-color: #f2f2f2;
+}
+h1,h2,h3{
+    font-family: Helvetica;
+}
+#container {
+    width : 760px;
+    margin: 0 auto;
+}
+header {
+    text-align: center;
+    background: #fff;
+    color: #1a71b8;
+    padding: 10px;
+}
+article {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+}
+article p{
+    margin: 0 0 1em;
+}
+section.post-head small{
+    display: block;
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    border-bottom: solid 1px #eee;
+    color: #00c6a0;
+}
+section.post-foot {
+    font-size: 14px;
+    border-top: solid 1px #eee;
+    margin: 20px 0 0;
+    padding : 20px 0 0;
+}
+footer {
+    text-align: center;
+    color : blue;
+    font-size: 14px;
+}
+
+ */
+
+/* styling web forms */
+
+/* #container{
+    width:600px;
+    margin: 0 auto;
+}
+form{
+    margin-top: 40px;
+}
+fieldset{
+    padding: 40px;
+    border: solid 1px #aaa;
+    background: url(images/blue-Background.jpg);
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea{
+    padding : 10px;
+    margin: 0 0 20px;
+    border: solid 1px #454545;
+    display: block;
+    border-top: none;
+    width: 50%;
+    resize:vertical;
+    font-size: 14px;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+#form-email{
+    text-transform: lowercase;
+}
+fieldset legend{
+    background: white;
+    padding: 10px;
+    border: solid 1px #aaa;
+}
+label{
+    font-size: 12px;
+    text-transform: uppercase;
+    background:red;
+    color: white;
+    display: block;
+    width:50%
+}    
+input[type="submit"]
+{
+    background: yellow;
+    border:none;
+    padding: 10px 40px;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background: green;
+} */
+
+
+/* CSS3 */
+/* #box{
+    background-color: red;
+    height: 200px;
+    width:200px;
+    margin: 40px auto;
+    padding: 50px;
+    box-sizing: border-box;
+} 
+body#colors{
+    background: rgba(25,52,84,1);
+    color: white;
+}
+#colors #container{
+    width:600px;
+    margin: 0 auto;
+    padding: 40px;
+    background: rgba(255,255,255,0.1);
+    box-sizing: border-box;   
+}
+#box{
+    background: radial-gradient(blue,yellow,green);
+} */
+
+body{
+    background: #333 url('../images/Cutlery.jpg') center center no-repeat;
+    background-size: cover;
+    color : #532827;
+}
+
+#container{
+    width : 400px;
+    margin: 40px auto 0;
+    padding : 50px;
+    box-sizing: border-box;
+    background : url('../images/paper-pattern.jpg') top left repeat;
+    box-shadow: 0 10px 15px -8px #000;
+    -webkit-border-radius: 5px;
+    text-align: center;
+}
+
+h1{
+    margin: 0 0 20px;
+    padding : 0 0 20px;
+    border-bottom: solid 1px green;
+}
+form {
+    text-align: left
+}
+
+form label{
+    display: block;
+    margin: 25px 0;
+    font-weight: bold;
+}
+form input,form select{
+    padding 8px;
+    margin: 10px 0;
+}
+
+form input[type="text"]
+{
+    width : 90px;
+}
+
+button {
+    background: #6c2726;
+    color: white;
+    border : none;
+    border-bottom: solid 4px #222;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding : 20px 30px;
+    width: 100%;
+}
+
+button:hover {
+    background: green;
+    border-bottom-color: yellow;
+}
+button:active{
+    position: relative;
+    top : 1px;
+}
+
+#totalTip {
+    font-size: 50px;
+    margin-top: 40px;
+    
+}
+
+#totalTip:before{
+    content : "Tip amount";
+    font-size : 14px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+
+#totalTip sup {
+    font-size: 24px;
+    top : -18px;
+}
+
+#totalTip small{
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
